@@ -88,3 +88,54 @@ header {
     background-color: purple;
     height: 500px;
 }
+
+/*-------------------------DROPDOWN-------------------*/
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    background-color: var(--verde-principal);
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: var(--verde-hover);
+    border-bottom: 0.5px solid var(---branco);
+    text-decoration: underline white;
+    padding-bottom: 2px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--verde-principal);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    color: var(--verde-hover);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+    
