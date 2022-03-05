@@ -1,0 +1,90 @@
+:root {
+    --verde-principal: #40bfae;
+    --verde-hover: #299288;
+    --branco: #fff;
+}
+
+/* infos header */
+/* height = 80 */
+/* fonte: Roboto Condensed - 400 - 18px - line height 80px */
+
+/* No html colar no header: */
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">  */
+
+/* link de menu dropdown: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar */
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 80px;
+
+    height: 97px;
+}
+
+.forma-geometrica {
+    position: fixed;
+    width: 100vw;
+}
+
+.menu-fixed {
+    position: fixed;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 50vw;
+}
+
+.elemento-menu {
+    padding: 1.5% .7rem;
+
+    font-size: 20px;
+    font-weight: 450;
+
+    color: var(--branco);
+    
+}
+
+.elemento-menu:hover {
+    color: var(--verde-hover);
+    border-bottom: 1px solid var(---branco);
+    text-decoration: underline white;
+    padding-bottom: rem;
+}
+
+.lupa {
+    padding-top: 1.2rem;
+}
+
+.logo {
+    position:fixed;
+    margin-left:14%;
+}
+
+.faixa-colorida1 {
+    background-color: red;
+    height: 500px;
+}
+
+.faixa-colorida2 {
+    background-color: black;
+    height: 500px;
+}
+
+.faixa-colorida3 {
+    background-color: white;
+    height: 500px;
+}
+
+.faixa-colorida4 {
+    background-color: purple;
+    height: 500px;
+}
